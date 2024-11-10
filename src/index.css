@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    .font-outline-0.5 {
+        -webkit-text-stroke: 0.5px yellow;
+    }
+    .font-outline {
+        -webkit-text-stroke: 1px lightyellow;
+    }
+    .font-outline-2 {
+      -webkit-text-stroke: 2px white;
+    }
+    .font-outline-4 {
+      -webkit-text-stroke: 4px white;
+    }
+  }
