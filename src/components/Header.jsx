@@ -82,13 +82,13 @@ function Header() {
               <li className="flex">
                 <LogoutBtn />
                 {/* <NavLink to="/add-profile">create profile</NavLink> */}
-                <NavLink to="/ProfileDisplay/:slug">
+                {/* <NavLink to=""> */}
                   <img
                     src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png"
                     alt="logo"
                     className="sm:h-20 sm:w-20 h-18 w-16"
                   />
-                </NavLink>
+                {/* </NavLink> */}
               </li>
             )}
           </ul>
